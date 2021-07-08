@@ -1,0 +1,13 @@
+.image-popup-container {
+  position: fixed;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+}
+
+.popup-image {
+  cursor: pointer;
+  -webkit-box-shadow: 0px 0px 0px 9999px rgba(0, 0, 0, 0.8);
+  box-shadow: 0px 0px 0px 9999px rgba(0, 0, 0, 0.8);
+}

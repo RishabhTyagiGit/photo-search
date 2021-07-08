@@ -1,0 +1,14 @@
+.imageContainer {
+  position: relative;
+  padding: 30px;
+  margin-top: 30vh;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  margin-left: 3rem;
+  margin-right: 3rem;
+}
+
+.imageItem {
+  margin-top: 1rem;
+}

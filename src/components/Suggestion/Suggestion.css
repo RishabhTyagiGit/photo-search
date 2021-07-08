@@ -1,0 +1,19 @@
+.suggestion-container {
+  display: flex;
+  width: 100%;
+  justify-content: center;
+}
+h4 {
+  margin: 0.5rem;
+}
+
+ul {
+  list-style: none;
+}
+
+.suggestion {
+  padding: 0.5rem 1rem;
+  background-color: cadetblue;
+  border: 2px solid black;
+  border-radius: 25px;
+}
