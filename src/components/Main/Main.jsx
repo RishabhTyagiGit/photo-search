@@ -18,6 +18,7 @@ const Main = () => {
     const [cachedQueries, setCachedQueries]=useState(cachedQueriesFromLocalStorage ? cachedQueriesFromLocalStorage : [])
 
     const handleOnChange = (query) => { 
+        window.scrollTo(0,0);
         let tempCachedQueries = [...cachedQueries];
         tempCachedQueries.push(query);
         setCachedQueries([...new Set(tempCachedQueries)])
